@@ -148,7 +148,7 @@ public class GildedRoseTest {
 
     @Test
     public void conjuredTest() {
-        Item[] items = new Item[] { new Item("Conjured", 10, 40) };
+        Item[] items = new Item[] { new Item("conjured", 10, 40) };
         GildedRose app = new GildedRose(items);
 
         app.updateQuality();
@@ -163,6 +163,24 @@ public class GildedRoseTest {
         Assert.assertEquals(34, app.items[0].quality);
         Assert.assertEquals(7, app.items[0].sellIn);
 
+    }
+
+    @Test
+    public void conjuredStartsWithTest() {
+        Item[] items = new Item[] { new Item("conjured Something", 10, 40) };
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+        Assert.assertEquals(38, app.items[0].quality);
+        Assert.assertEquals(9, app.items[0].sellIn);
+
+        app.updateQuality();
+        Assert.assertEquals(36, app.items[0].quality);
+        Assert.assertEquals(8, app.items[0].sellIn);
+
+        app.updateQuality();
+        Assert.assertEquals(34, app.items[0].quality);
+        Assert.assertEquals(7, app.items[0].sellIn);
     }
 
 }
