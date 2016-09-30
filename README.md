@@ -2,12 +2,16 @@
 
 This repository is our team's engagement with a refactoring kata, called [GildedRose](https://github.com/NotMyself/GildedRose#gilded-rose-refactoring-kata). It is assembled to satisfy a mob programming assignment from [CSCI E-71](http://agilesoftwareclass.org/), a Harvard Extension School course.
 
-## Objectives
-1. _Mob with your teammates to add unit tests until it is safe to refactor the legacy code. To demonstrate that you worked as a mob, capture video of your session. Upload your video to YouTube or Vimeo. Here's an example. Document the URL of your video in your repo's README file._
+
+## Objective 1
+
+_Mob with your teammates to add unit tests until it is safe to refactor the legacy code. To demonstrate that you worked as a mob, capture video of your session. Upload your video to YouTube or Vimeo. Here's an example. Document the URL of your video in your repo's README file._
 
 We recorded much of our mob session and uploaded to YouTube, video [here](https://www.youtube.com/watch?v=s1OMnyBpKmI).
 
-2. _Identify at least one solution for remote pair- and mob programming. What tools will you use to enable excellent f2f-like collaboration? Strive to reproduce the mobbing we experienced during our on-campus weekend. Document your solution in your repo’s README._
+## Objective 2
+
+_Identify at least one solution for remote pair- and mob programming. What tools will you use to enable excellent f2f-like collaboration? Strive to reproduce the mobbing we experienced during our on-campus weekend. Document your solution in your repo’s README._
 
 We ultimately settled on the free tier of [Zoom](https://zoom.us/) to collaborate and remotely control the screen. As a group, we also tried several others which did not quite work out on first blush. Specifically, we tried [YouTube Streaming](https://support.google.com/youtube/answer/2474026?hl=en) (_issue: only camera_), [Join.Me](https://www.join.me/) (_issue: no recording_), [Google Hangouts](https://hangouts.google.com/) (_issue: no recording_), and [Team Viewer](https://www.teamviewer.com/en/) (_issue: no recording_). In fairness to most of the other services attempted, we did not linger very long to try to troubleshoot.
 
